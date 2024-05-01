@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+@layer base {
+  :root {
+    --primary: #7879f1;
+    --primary-foreground: #9f9ff9;
+
+    --secondary: #3e334e;
+    --secondary-foreground: #584a6d;
+
+    --accent: #afa2c3;
+    --accent-foreground: #c3b6d7;
+  }
+}
